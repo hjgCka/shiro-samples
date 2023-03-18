@@ -15,6 +15,7 @@
         <module>samples-quickstart</module>
         <module>samples-servlet</module>
         <module>samples-web</module>
+        <module>shiro-spring</module>
     </modules>
 
     <properties>
