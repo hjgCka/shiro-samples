@@ -97,12 +97,17 @@
             <type>pom</type>
             <scope>test</scope>
         </dependency>
+
         <dependency>
+            <groupId>com.hjg</groupId>
+            <artifactId>shiro-it-support</artifactId>
+        </dependency>
+        <!--<dependency>
             <groupId>org.apache.shiro.integrationtests</groupId>
             <artifactId>shiro-its-support</artifactId>
             <scope>test</scope>
             <exclusions>
-                <!--slf4j 与 log4j2 的桥接包，名称是log4j在前，代码使用的是slf4j代码。log4j-core是实现。-->
+                &lt;!&ndash;slf4j 与 log4j2 的桥接包，名称是log4j在前，代码使用的是slf4j代码。log4j-core是实现。&ndash;&gt;
                 <exclusion>
                     <groupId>org.apache.logging.log4j</groupId>
                     <artifactId>log4j-slf4j-impl</artifactId>
@@ -112,6 +117,6 @@
                     <artifactId>log4j-core</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency>-->
     </dependencies>
 </project>

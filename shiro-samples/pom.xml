@@ -23,6 +23,7 @@
 
         <taglibs.standard.version>1.2.5</taglibs.standard.version>
         <htmlunit.version>2.66.0</htmlunit.version>
+        <junit.server.jetty.version>0.11.0</junit.server.jetty.version>
     </properties>
 
     <dependencies>
@@ -65,9 +66,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.shiro.integrationtests</groupId>
-                <artifactId>shiro-its-support</artifactId>
-                <version>${shiro.version}</version>
+                <groupId>com.hjg</groupId>
+                <artifactId>shiro-it-support</artifactId>
+                <version>1.0-SNAPSHOT</version>
                 <scope>test</scope>
             </dependency>
 
@@ -106,6 +107,12 @@
                 <groupId>net.sourceforge.htmlunit</groupId>
                 <artifactId>htmlunit</artifactId>
                 <version>${htmlunit.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.mjeanroy</groupId>
+                <artifactId>junit-servers-jetty</artifactId>
+                <version>${junit.server.jetty.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
