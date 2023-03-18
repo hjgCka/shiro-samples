@@ -14,6 +14,7 @@
     <modules>
         <module>samples-quickstart</module>
         <module>samples-servlet</module>
+        <module>samples-web</module>
     </modules>
 
     <properties>
