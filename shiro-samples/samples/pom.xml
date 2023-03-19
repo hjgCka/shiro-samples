@@ -11,11 +11,13 @@
 
     <artifactId>samples</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>samples-quickstart</module>
         <module>samples-servlet</module>
         <module>samples-web</module>
         <module>shiro-spring</module>
+        <module>shiro-spring-mvc</module>
     </modules>
 
     <properties>
