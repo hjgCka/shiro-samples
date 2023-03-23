@@ -19,6 +19,7 @@
         <module>shiro-spring</module>
         <module>shiro-spring-mvc</module>
         <module>shiro-spring-boot</module>
+        <module>shiro-spring-boot-web</module>
     </modules>
 
     <properties>
