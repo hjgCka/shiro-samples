@@ -18,6 +18,7 @@
         <module>samples-web</module>
         <module>shiro-spring</module>
         <module>shiro-spring-mvc</module>
+        <module>shiro-spring-boot</module>
     </modules>
 
     <properties>
