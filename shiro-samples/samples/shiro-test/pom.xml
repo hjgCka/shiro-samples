@@ -5,28 +5,30 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hjg</groupId>
-        <artifactId>shiro-samples</artifactId>
+        <artifactId>samples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>samples</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>samples-quickstart</module>
-        <module>samples-servlet</module>
-        <module>samples-web</module>
-        <module>shiro-spring</module>
-        <module>shiro-spring-mvc</module>
-        <module>shiro-spring-boot</module>
-        <module>shiro-spring-boot-web</module>
-        <module>shiro-test</module>
-    </modules>
+    <artifactId>shiro-test</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!--支持jdk8的最后一个版本-->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

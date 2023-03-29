@@ -58,18 +58,18 @@
             <artifactId>jcl-over-slf4j</artifactId>
             <version>1.7.25</version>
         </dependency>
-
-        <!--支持jdk8的最后一个版本-->
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>4.11.0</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
         <dependencies>
+            <!--支持jdk8的最后一个版本-->
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>4.11.0</version>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>com.hjg</groupId>
                 <artifactId>shiro-it-support</artifactId>
